@@ -24,6 +24,8 @@ public class MediaProcessController {
 	@Autowired
 	ProcessorInterface videoProcessor;
 	
+	
+	
 	@GetMapping("/video")
 	public MediaVO addVideo(@RequestParam(name = "vId") String videoId){
 		logger.info("Processing video in MediaProcessController");

@@ -1,13 +1,13 @@
 package com.suntossh.processor.main;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication(scanBasePackages={"com.suntossh.processor","com.rohan.processor"})
-//@ComponentScan({"com.suntossh.processor","com.rohan.processor"})
+//@SpringBootApplication(scanBasePackages={"com.suntossh","com.rohan.processor"})
 public class MainApplication {
 
 	public static void main(String[] args) {
-        SpringApplication.run(MainApplication.class, args);
+		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		System.out.println("MESSAGE PROCESSOR MAIN");
+		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		
+       // SpringApplication.run(MainApplication.class, args);
     }
 }
